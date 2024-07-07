@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Trabalho como Artigo"] 1720369785.25074 "Trabalho como Artigo.aux" "Trabalho como Artigo.bbl" "Trabalho como Artigo" 1720370366.00524 0
-  "./todas.bib" 1720369546 15626 3bb5eb4655fedd83556171163720fc12 ""
+["bibtex Trabalho como Artigo"] 1720382447.25173 "Trabalho como Artigo.aux" "Trabalho como Artigo.bbl" "Trabalho como Artigo" 1720382449.64863 0
+  "./todas.bib" 1720382127 18310 2273435aa9e49001bf36a1fc29d2f8bf ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 1543103229 5396 4eb260dac60f150ae608d45252853090 ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 1543103230 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "Textuais/Capitulo01.aux" 1720370364 5275 c35e28a7f6ee8a52a9edbc4bf05974ff "pdflatex"
-  "Trabalho como Artigo.aux" 1720370364 11511 35e43efe78c24f898e40fda8341aea62 "pdflatex"
+  "Textuais/Capitulo01.aux" 1720382448 5732 fe01e70c8e218b4a75f55d3755462909 "pdflatex"
+  "Trabalho como Artigo.aux" 1720382448 13053 ff19c3bf8ebea00e3289ba88111ee797 "pdflatex"
   (generated)
   "Trabalho como Artigo.bbl"
   "Trabalho como Artigo.blg"
   (rewritten before read)
-["pdflatex"] 1720370363.7662 "d:/User/Documents/Pesquisa Marianne/pesquisa-comportamental/pdf/Trabalho como Artigo.tex" "Trabalho como Artigo.pdf" "Trabalho como Artigo" 1720370366.00632 0
+["pdflatex"] 1720382447.53033 "d:/User/Documents/Pesquisa Marianne/pesquisa-comportamental/pdf/Trabalho como Artigo.tex" "Trabalho como Artigo.pdf" "Trabalho como Artigo" 1720382449.64957 0
   "C:/Users/guian/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1719164962 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/guian/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1718994197 24225046 4766702c1b71c65648cdf629c74d24f3 ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -148,10 +148,10 @@
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/guian/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
-  "Textuais/Capitulo01.aux" 1720370364 5275 c35e28a7f6ee8a52a9edbc4bf05974ff "pdflatex"
-  "Textuais/Capitulo01.tex" 1720370363 14166 0072690c4107ede662a536c96245a093 ""
-  "Trabalho como Artigo.aux" 1720370364 11511 35e43efe78c24f898e40fda8341aea62 "pdflatex"
-  "Trabalho como Artigo.bbl" 1720369785 5373 624d1c674938aa8db6eb6395da401c8b "bibtex Trabalho como Artigo"
+  "Textuais/Capitulo01.aux" 1720382448 5732 fe01e70c8e218b4a75f55d3755462909 "pdflatex"
+  "Textuais/Capitulo01.tex" 1720382440 19148 6ad9e24aed9ce37fb280ce073e2a46d0 ""
+  "Trabalho como Artigo.aux" 1720382448 13053 ff19c3bf8ebea00e3289ba88111ee797 "pdflatex"
+  "Trabalho como Artigo.bbl" 1720382447 7891 72a205c34a7f501c2646945ae37ea57c "bibtex Trabalho como Artigo"
   "Trabalho como Artigo.tex" 1720288151 2932 b17bf365b31c548fd8341c68cb1b7d18 ""
   "d:/User/Documents/Pesquisa Marianne/pesquisa-comportamental/pdf/Trabalho como Artigo.tex" 1720288151 2932 b17bf365b31c548fd8341c68cb1b7d18 ""
   (generated)

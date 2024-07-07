@@ -12,6 +12,12 @@
 ISBN 9780735224391. Dispon{\'\i}vel em:
   \url{https://books.google.com.br/books?id=IHuDDwAAQBAJ}.}
 
+\bibitem[Aquino 1274]{tomasdeaquino_summa_78}
+\abntrefinfo{Aquino}{AQUINO}{1274}
+{AQUINO, S. Tomás~de. \emph{Summa Theologica, Segunda Secundae Partis,
+  Questão 78}. [S.l.: s.n.], 1274. Trata diretamente da usura e da moralidade
+  dos empréstimos com juros.}
+
 \bibitem[Becker 1976]{becker1976}
 \abntrefinfo{Becker}{BECKER}{1976}
 {BECKER, G. Toward a more general theory of regulation.
@@ -23,8 +29,10 @@ Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/725165}.}
 
 \bibitem[Binmore 2008]{KenBinmore2008}
 \abntrefinfo{Binmore}{BINMORE}{2008}
-{BINMORE, K. \emph{Rational Decisions}. [S.l.]: Princeton University Press,
-  2008.}
+{BINMORE, K. \emph{Rational Decisions}. Princeton University Press, 2008.  (The
+  Gorman Lectures in Economics).
+ISBN 9781400833092. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=q6JYiaKTtu4C}.}
 
 \bibitem[Blaug 2001]{mark_history}
 \abntrefinfo{Blaug}{BLAUG}{2001}
@@ -32,6 +40,12 @@ Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/725165}.}
 \emph{Journal of Economic Perspectives}, v.~15, n.~1, p. 145–164, March 2001.
 Dispon{\'\i}vel em:
   \url{https://www.aeaweb.org/articles?id=10.1257/jep.15.1.145}.}
+
+\bibitem[B{\"o}hm-Bawerk 2022]{von2022capital}
+\abntrefinfo{B{\"o}hm-Bawerk}{B{\"O}HM-BAWERK}{2022}
+{B{\"O}HM-BAWERK, E. von. \emph{Capital and Interest}. MJP Publishers, 2022.
+ISBN 9789355270788. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=ruwN0AEACAAJ}.}
 
 \bibitem[Calcagno et al. 2024]{regime_memory}
 \abntrefinfo{Calcagno et al.}{CALCAGNO et al.}{2024}
@@ -81,6 +95,48 @@ Dispon{\'\i}vel em: \url{https://oll.libertyfund.org/pages/lm-bastiat-essays}.}
 {HAUSMAN, D.; MCPHERSON, M.; SATZ, D. \emph{Economic Analysis, Moral
   Philosophy, and Public Policy}. 3. ed. [S.l.]: Cambridge University Press,
   2016.}
+
+\bibitem[Krugman 2003]{krugman2003great}
+\abntrefinfo{Krugman}{KRUGMAN}{2003}
+{KRUGMAN, P. \emph{The Great Unraveling: Losing Our Way in the New Century}.
+  W.W. Norton, 2003.  (Business book summary).
+ISBN 9780393058505. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=2qyJpnOrveIC}.}
+
+\bibitem[Schumpeter 1976]{schumpeter1976capitalism}
+\abntrefinfo{Schumpeter}{SCHUMPETER}{1976}
+{SCHUMPETER, J. \emph{Capitalism, Socialism and Democracy}. Routledge, 1976.
+ISBN 9780415107624. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=6eM6YrMj46sC}.}
+
+\bibitem[Smith 1776]{smith1776inquiry}
+\abntrefinfo{Smith}{SMITH}{1776}
+{SMITH, A. \emph{An Inquiry Into the Nature and Causes of the Wealth of
+  Nations}. Strahan, 1776.  (An Inquiry Into the Nature and Causes of the
+  Wealth of Nations, v. 1).
+ISBN 9781537480787. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=C5dNAAAAcAAJ}.}
+
+\bibitem[Sowell 2000]{sowell2000basic}
+\abntrefinfo{Sowell}{SOWELL}{2000}
+{SOWELL, T. \emph{Basic Economics: A Citizen's Guide to the Economy}. Basic
+  Books, 2000.
+ISBN 9780465081387. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=L9g-3num2KIC}.}
+
+\bibitem[Sowell 2004]{sowell2004applied}
+\abntrefinfo{Sowell}{SOWELL}{2004}
+{SOWELL, T. \emph{Applied Economics: Thinking Beyond Stage One}. Basic Books,
+  2004.
+ISBN 9780465081431. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=2JqpPY5zXtMC}.}
+
+\bibitem[Stiglitz 2003]{stiglitz2003roaring}
+\abntrefinfo{Stiglitz}{STIGLITZ}{2003}
+{STIGLITZ, J. \emph{The Roaring Nineties: A New History of the World's Most
+  Prosperous Decade}. W. W. Norton \& Company, 2003.  (Business book summary).
+ISBN 9780393058529. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=mm6A32m53PsC}.}
 
 \bibitem[Thaler 2016]{thaler2016misbehaving}
 \abntrefinfo{Thaler}{THALER}{2016}
