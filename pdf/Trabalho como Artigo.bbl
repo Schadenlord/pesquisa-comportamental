@@ -26,6 +26,13 @@ Dispon{\'\i}vel em: \url{http://www.jstor.org/stable/725165}.}
 {BINMORE, K. \emph{Rational Decisions}. [S.l.]: Princeton University Press,
   2008.}
 
+\bibitem[Blaug 2001]{mark_history}
+\abntrefinfo{Blaug}{BLAUG}{2001}
+{BLAUG, M. No history of ideas, please, we're economists.
+\emph{Journal of Economic Perspectives}, v.~15, n.~1, p. 145–164, March 2001.
+Dispon{\'\i}vel em:
+  \url{https://www.aeaweb.org/articles?id=10.1257/jep.15.1.145}.}
+
 \bibitem[Calcagno et al. 2024]{regime_memory}
 \abntrefinfo{Calcagno et al.}{CALCAGNO et al.}{2024}
 {CALCAGNO, P.; MALDONADO, B.; NESBIT, T.; ZEAGER, M.~F. Political systems,
@@ -50,12 +57,24 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1111/1468-0297.00041}.}
 ISBN 9780691138732. Dispon{\'\i}vel em:
   \url{http://www.jstor.org/stable/j.ctvcm4gf2}.}
 
+\bibitem[Franco 2022]{franco2022cartas}
+\abntrefinfo{Franco}{FRANCO}{2022}
+{FRANCO, G. \emph{Cartas a um jovem economista}. GMT, 2022.
+ISBN 9786555644692. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=k1-CEAAAQBAJ}.}
+
 \bibitem[Friedman 1966]{positive_economics_friedman}
 \abntrefinfo{Friedman}{FRIEDMAN}{1966}
 {FRIEDMAN, M. \emph{{Essays in Positive Economics}}. University of Chicago
   Press, 1966.  (University of Chicago Press Economics Books, 9780226264035).
 ISBN ARRAY(0x4be4f6a8). Dispon{\'\i}vel em:
   \url{https://ideas.repec.org/b/ucp/bkecon/9780226264035.html}.}
+
+\bibitem[Hart 2019]{hart2019bastiat}
+\abntrefinfo{Hart}{HART}{2019}
+{HART, D.~M. Reassessing bastiat's economic harmonies after 160 years.
+\emph{Online Library of Liberty}, 2019.
+Dispon{\'\i}vel em: \url{https://oll.libertyfund.org/pages/lm-bastiat-essays}.}
 
 \bibitem[Hausman, McPherson e Satz 2016]{Hausman_McPherson_Satz_2016}
 \abntrefinfo{Hausman, McPherson e Satz}{HAUSMAN; MCPHERSON; SATZ}{2016}
@@ -86,5 +105,14 @@ Accessed: 2024-07-06.}
 \emph{Science}, v.~185, n.~4157, p. 1124--1131, 1974.
 Dispon{\'\i}vel em:
   \url{https://www.science.org/doi/abs/10.1126/science.185.4157.1124}.}
+
+\bibitem[Wells 2013]{Wells2013}
+\abntrefinfo{Wells}{WELLS}{2013}
+{WELLS, T. Adam smith on morality and self-interest.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Handbook of the Philosophical
+  Foundations of Business Ethics}. Dordrecht: Springer Netherlands, 2013. p.
+  281--296.
+ISBN 978-94-007-1494-6.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-94-007-1494-6\_26}.}
 
 \end{thebibliography}
