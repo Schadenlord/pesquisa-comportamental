@@ -398,12 +398,13 @@ As questões serão divididas em três estatísticas:
 
 Se a autoindulgência e a ideologia forem verdadeiras, então as respostas entre o público esclarecido e o publico geral devem ser muito próximas. Se a autoindulgência e a ideologia forem falsas, então as respostas entre o público esclarecido e os economistas devem ser muito próximas \cite{The_Myth_of_the_Rational_Voter}.
 
-\subsubsection{Por que a economia não está crescendo?}
+\subsubsection{Por que a economia não está crescendo? - Parte 1}
 
-segundo caplan (\citeyear{The_Myth_of_the_Rational_Voter})
+As primeiras 11 perguntas da SAEE começam com a seguinte pronunciação: "Independentemente de quão bem você acha que a economia está indo, sempre há alguns problemas que impedem que ela seja tão boa quanto poderia ser. Vou ler uma lista de razões que algumas pessoas deram para explicar por que a economia não está melhor do que está. Para cada uma, por favor, me diga se você acha que é um motivo principal pela qual a economia não está melhor do que está, um motivo menor ou não é uma razão de forma alguma." \cite{saee1996}.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
+    \caption*{Pergunta 1: “Os impostos são muito altos”}
     \begin{tikzpicture}
         \begin{axis}[
             xbar,
@@ -420,10 +421,910 @@ segundo caplan (\citeyear{The_Myth_of_the_Rational_Voter})
         \addplot coordinates {(1.5,Público) (0.79,Economistas) (0.99,Público Esclarecido)};
         \end{axis}
     \end{tikzpicture}
-    \caption{Valores por grupo}
-    \label{fig:valores_grupo}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_1}
 \end{figure}
 
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 2: “O deficit federal é grande demais”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.45,Público) (0.79,Economistas) (1,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_2}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 3: “O gasto com ajuda externa é alto demais”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.46,Público) (0.18,Economistas) (0.25,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 4: “Temos imigrantes demais”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.23,Público) (0.21,Economistas) (0.25,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_4}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 5: “Há deduções demais para as empresas”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.21,Público) (0.62,Economistas) (0.81,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_5}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 6: “A educação e a qualificação profissional são inadequadas”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.57,Público) (1.60,Economistas) (1.62,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_6}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 7: “A seguridade social atende pessoas demais”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.61,Público) (0.65,Economistas) (0.92,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_7}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 8: “Mulheres e minorias tem vantagens demais por causa das ações afirmativas”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(0.75,Público) (0.2,Economistas) (0.195,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_8}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 9: “As pessoas não dão valor ao trabalho duro”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.42,Público) (0.81,Economistas) (0.85,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_9}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 10: “O governo regulamenta muito os negócios”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.22,Público) (0.97,Economistas) (1,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_10}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 11: “As pessoas não poupão o bastante”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.4,Público) (1.5,Economistas) (1.42,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_11}
+\end{figure}
+
+\subsubsection{Por que a economia não está crescendo? - Parte 2}
+
+O enunciado para as próximas sete perguntas do SAEE muda ligeiramente: "Agora vou ler para você outra lista de razões, relacionadas aos negócios, que algumas pessoas deram para explicar por que a economia não está melhor do que está. Para cada uma, por favor, me diga se você acha que é um motivo principal pela qual a economia não está melhor do que está, um motivo menor ou não é uma razão de forma alguma." \cite{saee1996}.
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 12: “As empresas lucram demais”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.29,Público) (0.18,Economistas) (0.4,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_12}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 13: “Altos executivos ganham demais”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.59,Público) (0.72,Economistas) (0.85,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_13}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 14: “A produtividade está aumentando devagar demais”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.19,Público) (1.42,Economistas) (1.5,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_14}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 15: “A tecnologia causa demissões”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.29,Público) (0.25,Economistas) (0.42,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_15}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 16: “As empresas estão enviando funcionários ao estrangeiro”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.59,Público) (0.45,Economistas) (0.6,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_16}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 17: “As empresas estão reduzindo os postos de trabalho”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.59,Público) (0.45,Economistas) (0.65,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_17}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 18: “As empresas não investem o suficiente em educação e qualificação profissional”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.52,Público) (1.18,Economistas) (1.21,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “nenhum motivo”, 1 = “motivo menor” e 2 = “motivo principal”.}
+    \label{fig:pergunta_18}
+\end{figure}
+
+\subsubsection{Bom, ruim ou neutro para a economia?}
+
+Todas as questões apresentadas anteriormente são sobre o que está impedindo a economia de crescer, ou seja, problemas econômicos. As próximas sete perguntas mais gerais, são sobre se algo é bom, ruim ou neutro para a economia: "Em termos gerais, você acha que as seguintes coisas são boas, ruins ou neutras para a economia?" \cite{saee1996}.
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 19: “Corte de impostos”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.43,Público) (1.02,Economistas) (1.2,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “ruim”, 1 = “indiferente” e 2 = “bom”.}
+    \label{fig:pergunta_19}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 20: “Mais mulheres entram para a força de trabalho”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.45,Público) (1.76,Economistas) (1.65,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “ruim”, 1 = “indiferente” e 2 = “bom”.}
+    \label{fig:pergunta_20}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 21: “Aumento do uso de tecnologia no trabalho”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.58,Público) (1.97,Economistas) (1.81,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “ruim”, 1 = “indiferente” e 2 = “bom”.}
+    \label{fig:pergunta_21}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 22: “Acordos comerciais entre os Estados Unidos e os outros países”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.32,Público) (1.85,Economistas) (1.72,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “ruim”, 1 = “indiferente” e 2 = “bom”.}
+    \label{fig:pergunta_22}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 23: “A redução recente nos postos de trabalho das grandes empresas”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(0.61,Público) (1.4,Economistas) (1.25,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “ruim”, 1 = “indiferente” e 2 = “bom”.}
+    \label{fig:pergunta_23}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 24: “Algumas pessoas dizem que estes são tempos economicamente instáveis por causa das novas tecnologias, da concorrência de países estrangeiros e da redução de pessoal. Olhando para os próximos 20 anos, você acha que essas mudanças serão, eventualmente, boas ou ruins para o país, ou você acha que essas mudanças não farão muita diferença?”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.18,Público) (1.92,Economistas) (1.71,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “ruim”, 1 = “indiferente” e 2 = “bom”.}
+    \label{fig:pergunta_24}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 25: "Você acha que os acordos comerciais entre os Estados Unidos e outros países ajudaram a criar mais empregos nos EUA, ou eles custaram empregos aos EUA, ou eles não fizeram muita diferença?"}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(0.62,Público) (1.45,Economistas) (1.48,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “custaram empregos”, 1 = “não fizeram diferença” e 2 = “ajudaram a criar empregos”.}
+    \label{fig:pergunta_25}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+\subsubsection{Diversas}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 26: “Quem você acha o maior responsável pelo aumento recente no preços dos combustíveis”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=1,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(0.23,Público) (0.87,Economistas) (0.82,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 1, onde 0 = “Petrolíferas tentando aumentar lucros”, 1 = “Lei de oferta e demanda”.}
+    \label{fig:pergunta_26}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 27: “Você acha que os preços dos combustíveis são altos demais, baixos demais ou no nível certo?”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.67,Público) (0.62,Economistas) (0.89,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “baixos”, 1 = “nível certo” e 2 = “altos”.}
+    \label{fig:pergunta_27}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 28: “Você acha que o presidente pode fazer muito, pouco ou que está além da capacidade de ele melhorar a economia”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(0.90,Público) (0.92,Economistas) (1,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “além da capacidade”, 1 = “pode fazer pouco” e 2 = “pode fazer muito”.}
+    \label{fig:pergunta_28}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 29: “Você acha que os novos postos de trabalho do país pagam bem ou mal?”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(0.38,Público) (1.08,Economistas) (1,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “pagam mal”, 1 = “nem uma coisa, nem outra” e 2 = “pagam bem”.}
+    \label{fig:pergunta_29}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 30: “Você acha que a desigualdade entre os ricos e os pobres é menor ou maior do que há vinte anos, ou é praticamente a mesma”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.68,Público) (1.85,Economistas) (1.87,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “menor”, 1 = “praticamente a mesma” e 2 = “maior”.}
+    \label{fig:pergunta_30}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 31: “Nos últimos 20 anos, você acha que, em geral, as rendas familiares dos americanos médios têm aumentado mais rapidamente do que o custo de vida, têm se mantido aproximadamente no mesmo nível do custo de vida, ou têm ficado atrás do custo de vida?”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(0.39,Público) (1.16,Economistas) (1,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “ficou para trás”, 1 = “mesmo nível” e 2 = “cresceu mais rápido”.}
+    \label{fig:pergunta_31}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 32: “Pensando apenas nos salários do trabalhador americano médio, você acha que, nos últimos 20 anos, eles têm aumentado mais rapidamente do que o custo de vida, têm se mantido aproximadamente no mesmo nível do custo de vida, ou têm ficado atrás do custo de vida?”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(0.38,Público) (0.75,Economistas) (0.55,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = “ficou para trás”, 1 = “mesmo nível” e 2 = “cresceu mais rápido”.}
+    \label{fig:pergunta_32}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 33: “Algumas pessoas dizem que, para ter uma vida confortável, a família média deve ter dois assalariados em tempo integral. Você concorda com isso, ou acha que a família média pode viver confortavelmente com apenas um assalariado em tempo integral?”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=1,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(0.85,Público) (0.77,Economistas) (0.79,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = "pode viver com um assalariado" e 1 = "precisa de dois assalariados".}
+    \label{fig:pergunta_33}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 34: “Nos próximos cinco anos, você acha que o padrão de vida do americano médio vai subir, cair ou se manter aproximadamente o mesmo?”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.18,Público) (1.92,Economistas) (1.71,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = "cair", 1 = "se manter aproximadamente o mesmo" e 2 = "subir".}
+    \label{fig:pergunta_34}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 35: “Você espera que a geração de seus filhos desfrute de um padrão de vida mais alto ou mais baixo do que a sua geração, ou acha que será aproximadamente o mesmo?”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.05,Público) (1.25,Economistas) (1.38,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = "mais baixo", 1 = "aproximadamente o mesmo" e 2 = "mais alto".}
+    \label{fig:pergunta_35}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 36: [Se você tem filhos com menos de 30 anos] "Quando eles atingirem a sua idade, você espera que eles desfrutem de um padrão de vida mais alto ou mais baixo do que o seu agora, ou espera que seja aproximadamente o mesmo?”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=2,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(1.25,Público) (1.26,Economistas) (1.51,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde  0 = "mais baixo", 1 = "aproximadamente o mesmo" e 2 = "mais alto".}
+    \label{fig:pergunta_36}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \caption*{Pergunta 37: “Quando você pensa na economia dos Estados Unidos hoje, você acha que ela está...”}
+    \begin{tikzpicture}
+        \begin{axis}[
+            xbar,
+            symbolic y coords={Público, Economistas, Público Esclarecido},
+            ytick=data,
+            xmin=0, xmax=4,
+            xlabel={Valor},
+            bar width=0.6cm,
+            width=10cm,
+            height=6cm,
+            enlarge y limits=0.5,
+            y dir=reverse % Invert the y-axis to maintain the desired order
+        ]
+        \addplot coordinates {(2.58,Público) (3.16,Economistas) (2.71,Público Esclarecido)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Elaborado pelo autor com base em Caplan (\citeyear{The_Myth_of_the_Rational_Voter}) \newline
+    Nota: As respostas são dadas em uma escala de 0 a 2, onde 0 = "em depressão", 1 = "em recessão", 2 = "estagnando", 3 = "crescendo lentamente" e 4 = "crescendo rapidamente".}
+    \label{fig:pergunta_37}
+\end{figure}
+
+\newpage
 
 \subsection{Portugal}
 
